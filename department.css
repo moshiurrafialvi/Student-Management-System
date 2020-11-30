@@ -1,9 +1,11 @@
-body{
-	margin:0;
-	padding: 0;
-	font-family: sans-serif;
-
+body {
+	font-family: 'Montserrat', sans-serif;
+font-size: 15px;
+	font-weight: 400;
+	color: #798696;
+overflow-x:hidden;
 }
+
 /* --- Background Image --- */
 .bg-image {
 	position:absolute;
@@ -30,6 +32,8 @@ body{
 	background-image: linear-gradient(to bottom, #374050 0%, #798696 100%);
 	opacity: 0.7;
 }
+
+
 .department{
 	width: 280px;
 	position: absolute;
@@ -42,7 +46,7 @@ body{
 
 	float: left;
 	font-size: 40px;
-	margin-bottom: 70px;
+	margin-bottom: 90px;
 	padding: 13px 0;
 }
 ul{

@@ -1,0 +1,109 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+body{
+	margin:0;
+	padding: 0;
+	font-family: sans-serif;
+	box-sizing: border-box;
+
+}
+/* --- Background Image --- */
+.bg-image {
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	background-position:center;
+	background-size:cover;
+}
+
+.bg-image.bg-parallax {
+	background-attachment:fixed;
+}
+
+.bg-image.overlay:after {
+	content:"";
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#374050), to(#798696));
+	background-image: linear-gradient(to bottom, #374050 0%, #798696 100%);
+	opacity: 0.7;
+}
+.box{
+	position: absolute;
+	top: 50%
+	left:50%;
+	transform: translate(-50%, -50%);
+}
+.notice{
+	width: 60px;
+	height: 
+}
+.wrapper{
+	position: absolute;
+	right: 600px;
+	bottom: 300px;
+	max-width: 800px;
+	background: #fff;
+	box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+	border-radius: 15px;
+}
+.wrapper .head-text{
+	background-color: #4caf50;
+    top: 90px;
+	line-height: 60px;
+	color: white;
+	border-radius: 15px 15px 0 0;
+	padding: 0 20px;
+	font-weight: 500;
+	font-size: 20px;
+
+}
+.wrapper .box{
+	padding: 20px;
+	width: 100%;
+
+}
+.box .desc-text{
+	color: white;
+	text-align: center;
+	line-height: 25px;
+	font-size: 17px;
+	font-weight: 500;
+	border-bottom: 3px solid #4caf50;
+
+}
+.textarea{
+	width: 100%;
+	height: 100%;
+	padding-left: 20px;
+	border: 3px solid #4caf50;
+	outline: none;
+	border-radius: 25px;
+	font-size:16px;
+
+
+}
+.textarea:focus::placeholder{
+	color: silver;
+}
+.textarea{
+	height: 70px;
+	width: 100%;
+	resize: none;
+	font-size: 16px;
+}
+.btn{
+cursor: pointer;
+background-color: #4caf50;
+color: white;
+font-size:20px;
+font-weight: 500
+
+}
+.btn:hover{
+	background-color: coral;
+}

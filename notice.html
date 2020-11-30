@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Register</title>
+	<title>Notice</title>
 	<!-- Google font -->
 		<link href="https://fonts.googleapis.com/css?family=Lato:700%7CMontserrat:400,600" rel="stylesheet">
 
 		<!-- Font Awesome Icon -->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-		<link rel="stylesheet" type="text/css" href="register.css">
+		<link rel="stylesheet" type="text/css" href="notice.css">
+
 		<!-- Custom stlylesheet -->
 		<style media="screen">
 			</style>
@@ -16,18 +17,18 @@
 	<!-- Backgound Image -->
 			<div class="bg-image bg-parallax overlay" style="background-image:url(https://i.imgur.com/YDwNPZg.jpg)"></div>
 			<!-- /Backgound Image -->
-			<div class="register">
-				<h1>Register</h1>
-		<div class="list">
-			<ul>
-				<li><button onclick="window.location.href='registerstudent.html'">Student</button> </li>
-				<li><button onclick="window.location.href='registerteacher.html'">Teacher</button></li>
-				<li><button onclick="window.location.href='registercourse.html'">Course</button> </li>
-			</ul>
-			
-		</div>
-	</div>
+			<div class="wrapper">
+				<div class="head-text">Notice From Admin</div>
+				<div class="box">
+					<div class="desc-text">Please read it carefully</div>
+					<div class="text-area">
+						<textarea cols="40" rows="20" placeholder="Notice" required></textarea>
+					</div>
+					<div> 
+						<button class="btn" type="submit">Post</button>
+					</div>
 
-
+				</div>
+			</div>
 </body>
 </html>

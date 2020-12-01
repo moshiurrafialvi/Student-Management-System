@@ -1,35 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Login</title>
-	<!-- Google font -->
-		<link href="https://fonts.googleapis.com/css?family=Lato:700%7CMontserrat:400,600" rel="stylesheet">
-
-		<!-- Font Awesome Icon -->
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-		<link rel="stylesheet" type="text/css" href="stylelogin.css">
-
-		<!-- Custom stlylesheet -->
-		<style media="screen">
-			</style>
+	<title>Animated Login Form</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-	<!-- Backgound Image -->
-			<div class="bg-image bg-parallax overlay" style="background-image:url(https://i.imgur.com/YDwNPZg.jpg)"></div>
-			<!-- /Backgound Image -->
-			<div class="loginbox">
-				<h1>Login</h1>
-				<div class="textbox">
-					<i class="fas fa-users" ></i>
-					<input type="text" placeholder="Username" name="" value="">
-				</div>
-				<div class="textbox">
-					<i class="fas fa-lock" aria-hidden="true"></i>
-					<input type="password" placeholder="Password" name="" value="">
-				</div>
-				<button type="submit" class="btn" onclick="window.location.href='facultyprofile.html'">Login</button>
+	<img class="wave" src="img/wave.png">
+	<div class="container">
+		<div class="img">
 			
-			</div>
-
+		</div>
+		<div class="login-content">
+			<form action="index.html">
+				<img src="img/avatar.svg">
+				<h2 class="title">Welcome</h2>
+           		<div class="input-div one">
+           		   <div class="i">
+           		   		<i class="fas fa-user"></i>
+           		   </div>
+           		   <div class="div">
+           		   		<h5>Username</h5>
+           		   		<input type="text" class="input">
+           		   </div>
+           		</div>
+           		<div class="input-div pass">
+           		   <div class="i"> 
+           		    	<i class="fas fa-lock"></i>
+           		   </div>
+           		   <div class="div">
+           		    	<h5>Password</h5>
+           		    	<input type="password" class="input">
+            	   </div>
+            	</div>
+            	<a href="#">Forgot Password?</a>
+            	<input type="submit" class="btn" value="Login">
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
